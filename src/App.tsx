@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Color, ViewerApp } from "webgi";
 
 function App() {
-  const [modelId,] = useState("Ep9bWZIlTSG6_8DH7QDc1w"); // Replace with your actual model ID
+  const [modelId,] = useState("dPwErKSsSaST0VV2kWyBzQ"); // Replace with your actual model ID
   const [viewer , setViewer] = useState<ViewerApp | null>(null);
   
   useEffect(() => {
